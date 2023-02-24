@@ -4,11 +4,10 @@ site: bookdown::bookdown_site
 author: "peacecop kalmer:"
 colorlinks: TRUE
 date: "`r Sys.Date()`"
-description: "This is the manual for creating content using RStudio Server."
+description: "loodusteaduste klubi plaan"
 lang: en
 title: |
-    Manual for creating content using  
-    RStudio Server
+    Loodusteaduste klubi
 
 documentclass: book
 papersize: a4
@@ -32,21 +31,22 @@ lot: yes
 # example chunk options set globally
 knitr::opts_chunk$set(
   collapse = TRUE,
-  echo = TRUE
+  echo = TRUE,
+  attr.source = '.numberLines'
 )
 
-local({
-  hook_source <- knitr::knit_hooks$get('source')
-  knitr::knit_hooks$set(source = function(x, options) {
-    x <- xfun::split_lines(x)
-    n <- nchar(x, 'width')
-    i <- seq_along(x)  # line numbers
-    n <- n + nchar(i)
-    s <- knitr:::v_spaces(max(n) - n)
-    x <- paste(x, s, '  # ', i, sep = '', collapse = '\n')
-    hook_source(x, options)
-  })
-})
+# local({
+#   hook_source <- knitr::knit_hooks$get('source')
+#   knitr::knit_hooks$set(source = function(x, options) {
+#     x <- xfun::split_lines(x)
+#     n <- nchar(x, 'width')
+#     i <- seq_along(x)  # line numbers
+#     n <- n + nchar(i)
+#     # s <- knitr:::v_spaces(max(n) - n)
+#     # x <- paste(x, s, '  # ', i, sep = '', collapse = '\n')
+#     hook_source(x, options)
+#   })
+# })
 
 if (!require("librarian")) {
   install.packages("librarian", dependencies = TRUE)
@@ -215,23 +215,410 @@ render_color <- function(color, text) {
 
 ```
 
-# Introduction
+# Loodusteaduste klubi ülesehitus
 
-Once upon a time, a student asked me to help him in R. i had no experience with R, however i gave it a chance. i installed RStudio Server. Months passed after my first use until i needed it for my stuff. i was studying statistics in a university and our teacher wanted us to create our solutions using a spreadsheet program. i saw that using R, i could learn more useful stuff and moved on RStudio Server. i learnt to create output using *bookdown* which is a library that can be used for creating websites or e-books while including calculations and graphs. As *bookdown* has a steap learning curve, i want to elaborate it here. Template strings are marked with angle brackets.
+## Eesmärgid
 
-For me, regarding cross-references, the following things are important:
+1. Osalevate õpilaste lüngad loodusteaduste ja matemaatika teadmistes-oskustes on täidetud kestvalt vastavalt kaardistatud vajadustele.
 
-1. It must be possible to cross-reference between files.
+2. Käsitletud teemade osas on osalevatel õpilastel terviklik käsitus.
 
-2. R code in one file must be accessible in another file.
+## Loogikamäng
 
-3. Citations in table captions using `kableStyling` must be possible.
+Sissejuhatuseks ja soojenduseks iga sessiooni alguses mängime ühe loogikamängu, mis aitab mõtlemise paremini tööle panna. Neid mänge on mitmeid ja neid saab mitut viisi kombineerida. Üks on nt kujundi ja värvi äraarvamine / tuletamine, teine enda värvi äraarvamine / tuletamine.
 
-Currently, *bookdown* supports all of them.
+## Vajaduste kaardistamine
 
-we can see the workflow of from the written markdown to the ready output on the figure \@ref(fig:workflow).
+Esimeses sessioonis kaardistame osalejate vajadused füüsika, keemia, matemaatika ja arvutiteaduse valdkondades. Selleks nad sisestavad Answergardenisse märksõnadena, mille õppimiseks on jäänud koolisessioonidest väheks ja mille integreeritud õppimist saan mina aidata.
 
-```{r label = "workflow", fig.cap = paste("The workflow from the written markdown to the ready output using *bookdown*", render_with_emojis(text = "((ref:riederer-122))"), ".", sep = "")}
-include_external_graphics("rmd/workflow.png")
+## Lõimitud teemakäsitlus
 
-```
+Pärast sissejuhatavat loogikamängu tegeleme lõimitud teemakäsitlusega kaasates teema või teemad vastavalt kaardistatud vajadustele. Esimeses sessioonis käsitleme teemat või teemasid vastavalt kohapealsetele võimalustele, kuna selleks sessiooniks ei saa veel olla miski konkreetne teemakäsitlus ettevalmistatud. Alates teisest sessioonist on struktuur nt selline:
+
+1. Reegli avastamine vaikse õpetamise meetodi kaudu.
+
+2. Võimalusel kehalise eksperimendi sooritamine ja sellega teooria kontrollimine.
+
+3. Segaste kohtade selgeks õppimine.
+
+4. Gruppides üksteisele teemakohaste ülesannete loomine.
+
+5. Gruppides üksteisele loodud teemakohaste ülesannete vastastikku lahendamine.
+
+## Füüsikateemad
+
+### Mõõtmine ja hindamine
+
+1. Mõõtmistäpsus.
+
+2. Ühikud.
+
+3. Suurusjärk.
+
+4. Dimensioonid.
+
+### Kinemaatika
+
+1. Vahemaa.
+
+2. Keskmine kiirus.
+
+3. Hetkekiirus.
+
+4. Kiirendus.
+
+5. Jääv kiirus.
+
+6. Vabalt langevad sihitised.
+
+7. Lineaarse liikumise graafiline analüüs.
+
+8. Vektorid ja skalaarid.
+
+9. Vektorite liitmine.
+
+10. Vektorite lahutamine.
+
+11. Vektori korrutamine skalaariga.
+
+12. Vektorite kui komponentide liitmine.
+
+13. Projektiil.
+
+14. Suhteline kiirus.
+
+### Dünaamika
+
+1. Jõud.
+
+2. Newtoni esimene liikumisseadus.
+
+3. Mass.
+
+4. Newtoni teine liikumisseadus.
+
+5. Newtoni kolmas liikumisseadus.
+
+6. Kaal.
+
+7. Hõõrdumine.
+
+### Ringliikumine.
+
+1. Ühtlase ringliikumise kinemaatika.
+
+2. Ühtlase ringliikumise dünaamika.
+
+3. Maantee kurvid.
+
+4. Ebaühtlane ringliikumine.
+
+5. Newtoni üldine gravitatsiooniseadus.
+
+6. Gravitatsioon Maa pinna lähedal.
+
+7. Kaaluta olek.
+
+8. Kepleri seadused.
+
+9. Mõõnad ja tõusud.
+
+10. Loodusjõudude liigid.
+
+### Töö ja energia.
+
+1. Jääva jõu mõjul tehtav töö.
+
+2. Muutuva jõu mõjul tehtav töö.
+
+3. Kineetiline energia.
+
+4. Potentsiaalne energia.
+
+5. Jäävad ja mittejäävad jõud.
+
+6. Mehhaaniline energia.
+
+7. Energia üleminekud.
+
+8. Energia jäävus.
+
+9. Võimsus.
+
+### Lineaarne jõumoment
+
+1. Impulsimoment.
+
+2. Impulsimomendi jäävus.
+
+3. Põrkamine ja impulss.
+
+4. Kokkupõrke jõumoment.
+
+5. Elastiline põrge ühes mõõtmes.
+
+6. Mitteelastne põrge.
+
+7. Põrge kahes mõõtmes.
+
+8. Massikese.
+
+### Pöördliikumine
+
+1. Nurgasuurused.
+
+2. Jääv nurkkiirendus.
+
+3. Veereliikumine.
+
+4. Jõumoment.
+
+5. Pöörddünaamika.
+
+6. Pöördliikumise kineetiline energia.
+
+7. Nurga impulsimoment.
+
+8. Vektorid nurgasuurustega.
+
+### Staatiline tasakaal
+
+1. Tasakaalu tingimused.
+
+2. Musklite ja liigeste rakendused.
+
+3. Stabiilsus ja tasakaal.
+
+4. Elastsus ja pinge.
+
+5. Haprus.
+
+6. Kaared ja kuplid.
+
+### Vedelikud
+
+1. Aine faasid.
+
+2. Tihedus ja erigravitatsioon.
+
+3. Rõhk vedelikes.
+
+4. Atmosfäärirõhk.
+
+5. Pascali põhimõte.
+
+6. Rõhu mõõtmine.
+
+7. Archimedese põhimõte.
+
+8. Vedelikud liikumises.
+
+9. Bernoulli valem.
+
+10. Torricelli.
+
+11. Viskoossus.
+
+12. Poiseuille'i valem
+
+13. Pindpinevus ja kapillaarsus.
+
+14. Pumbad ja süda.
+
+### Võnkumine ja lained
+
+1. Lihtne harmooniline liikumine.
+
+2. Lihtsa harmoonilise liikumise energia.
+
+3. Periood ja sinusoidne graafik.
+
+4. Lihtne pendel.
+
+5. Sumbvõnkumine.
+
+6. Sundvõnkumine.
+
+7. Laineline liikumine.
+
+8. Lainete liigid.
+
+9. Lainetega transporditav energia.
+
+10. Laine ülekanne ja peegeldus.
+
+11. Interferents.
+
+12. Refraktsioon.
+
+13. Difraktsioon.
+
+14. Liikuva laine matemaatiline esitus.
+
+### Heli
+
+1. Heli omadused.
+
+2. Heli intensiivsus.
+
+3. Valjusus.
+
+4. Heliallikad.
+
+5. Heli kvaliteet.
+
+6. Rütm.
+
+7. Doppleri efekt.
+
+8. Šokilained.
+
+9. Heli rakendused.
+
+### Kineetika
+
+1. Aine atomaarne teooria.
+
+2. Temperatuur ja termomeetrid.
+
+3. Termodünaamika nullseadus.
+
+4. Termiline paisumine.
+
+5. Gaasiseadused.
+
+6. Ideaalse gaasi seadus.
+
+7. Avogadro arv.
+
+8. Temperatuuri molekulaarne esitus.
+
+9. Molekulaarne kiirusjaotus.
+
+10. Tegelikud gaasid.
+
+11. Aururõhk.
+
+12. Difusioon.
+
+### Soojus
+
+1. Soojus kui energia ülekanne.
+
+2. Siseenergia
+
+3. Erisoojus.
+
+4. Kalorimeetria.
+
+5. Latentne soojus.
+
+6. Konduktsioon.
+
+7. Konvektsioon.
+
+8. Radiatsioon.
+
+### Termodünaamika
+
+1. Esimene termodünaamika seadus.
+
+2. Teine termodünaamika seadus.
+
+3. Soojusmasinad.
+
+4. Külmikud.
+
+5. Kord ja kaos.
+
+6. Soojussurm.
+
+7. Soojusreostus.
+
+### Elektrilaeng
+
+1. Staatiline elekter.
+
+2. Aatomi elektrilaeng.
+
+3. Isolaatorid ja juhid.
+
+4. Elektroskoop.
+
+5. Coulombi seadus.
+
+6. Elektriväli.
+
+7. Elektrivälja jõujooned.
+
+8. Elektrilised jõud molekulaarbioloogias.
+
+9. Printer.
+
+10. Gaussi seadus.
+
+### Elektriline potentsiaal
+
+1. Elektriline potentsiaalne energia.
+
+2. Elektrilise potentsiaali ja elektrivälja tugevuse seos.
+
+3. Ekvipotentsiaaljooned.
+
+4. Elektronvolt.
+
+5. Punktlaengutest põhjustatud elektriline potentsiaal.
+
+6. Dipool.
+
+7. Mahtuvus.
+
+8. Dielektrika.
+
+9. Elektrienergia salvestamine.
+
+10. Kahendsüsteem.
+
+11. Kuvar.
+
+12. Elektrokardiogramm.
+
+### Elektrivool
+
+1. Elektriline patarei.
+
+2. Elektrivoolu olemus.
+
+3. Ohmi seadus
+
+4. Takistus.
+
+5. Elektrivõimsus.
+
+6. Võimsus kodumajapidamise vooluvõrgus.
+
+7. Vahelduvvool.
+
+8. Elektrivoolu mikroskoopia.
+
+9. Ülijuhtivus.
+
+10. Elektrijuhtivus inimese närvisüsteemis.
+
+### Alalisvool
+
+1. Elektromotoorjõud.
+
+2. Takistid.
+
+3. Kirchhoffi reeglid.
+
+4. Aku laadimine.
+
+5. Kondensaator.
+
+6. Takistid ja kondensaatorid jadamisi.
+
+7. Elektrilised ohud.
+
+8. Voolutugevuse ja pinge mõõtmine.

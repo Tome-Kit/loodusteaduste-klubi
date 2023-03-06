@@ -229,7 +229,11 @@ Sissejuhatuseks ja soojenduseks iga sessiooni alguses mängime ühe loogikamäng
 
 ## Vajaduste kaardistamine
 
-Esimeses sessioonis kaardistame osalejate vajadused füüsika, keemia, matemaatika ja arvutiteaduse valdkondades. Selleks nad sisestavad Answergardenisse märksõnadena, mille õppimiseks on jäänud koolisessioonidest väheks ja mille integreeritud õppimist saan mina aidata.
+Esimeses sessioonis kaardistame osalejate vajadused [füüsika](https://answergarden.ch/3069314), [keemia](https://answergarden.ch/3069330), [matemaatika](https://answergarden.ch/3069333) ja [arvutiteaduse](https://answergarden.ch/3069339) valdkondades. Selleks nad sisestavad Answergardenisse märksõnadena, mille õppimiseks on jäänud koolisessioonidest väheks ja mille integreeritud õppimist saan mina aidata.
+
+## Konto loomine
+
+Esimeses sessioonis loovad osalejad endale mu [OpenProjecti](https://openproject.tennis24.ee/projects/loodusteaduste-klubi/) konto, millesse raporteerime kõik tegevused.
 
 ## Lõimitud teemakäsitlus
 

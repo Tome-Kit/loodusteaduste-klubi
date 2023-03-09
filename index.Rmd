@@ -5,7 +5,7 @@ author: "peacecop kalmer:"
 colorlinks: TRUE
 date: "`r Sys.Date()`"
 description: "loodusteaduste klubi plaan"
-lang: en
+lang: et
 title: |
     Loodusteaduste klubi
 
@@ -229,7 +229,47 @@ Sissejuhatuseks ja soojenduseks iga sessiooni alguses mängime ühe loogikamäng
 
 ## Vajaduste kaardistamine
 
-Esimeses sessioonis kaardistame osalejate vajadused [füüsika](https://answergarden.ch/3069314), [keemia](https://answergarden.ch/3069330), [matemaatika](https://answergarden.ch/3069333) ja [arvutiteaduse](https://answergarden.ch/3069339) valdkondades. Selleks nad sisestavad Answergardenisse märksõnadena, mille õppimiseks on jäänud koolisessioonidest väheks ja mille integreeritud õppimist saan mina aidata.
+Esimeses sessioonis kaardistame osalejate vajadused füüsika (vormid \@ref(fig:physics-9) ja \@ref(fig:physics-10-11-output)), keemia (vormid \@ref(fig:chemistry-9) ja \@ref(fig:chemistry-10-11-output)), matemaatika (vormid \@ref(fig:math-9) ja \@ref(fig:math-10-11-output)) ja arvutiteaduse (vormid \@ref(fig:cs-9) ja \@ref(fig:cs-10-11-output)) valdkondades. Selleks nad sisestavad Answergardenisse märksõnadena, mille õppimiseks on jäänud koolisessioonidest väheks ja mille integreeritud õppimist saan mina aidata.
+
+```{r label = "physics-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste füüsikasoovid."}
+knitr::include_url("https://answergarden.ch/embed/3069314")
+
+```
+
+```{r label = "physics-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste füüsikasoovid."}
+knitr::include_url("https://answergarden.ch/embed/3076065")
+
+```
+
+```{r label = "chemistry-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste keemiasoovid."}
+knitr::include_url("https://answergarden.ch/3069330")
+
+```
+
+```{r label = "chemistry-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste keemiasoovid."}
+knitr::include_url("https://answergarden.ch/3076089")
+
+```
+
+```{r label = "math-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste matemaatikasoovid."}
+knitr::include_url("https://answergarden.ch/3069333")
+
+```
+
+```{r label = "math-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste matemaatikasoovid."}
+knitr::include_url("https://answergarden.ch/3076095")
+
+```
+
+```{r label = "cs-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste arvutiteaduse soovid."}
+knitr::include_url("https://answergarden.ch/3069339")
+
+```
+
+```{r label = "cs-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste arvutiteaduse soovid."}
+knitr::include_url("https://answergarden.ch/3076099")
+
+```
 
 ## Konto loomine
 
@@ -626,3 +666,17 @@ Pärast sissejuhatavat loogikamängu tegeleme lõimitud teemakäsitlusega kaasat
 7. Elektrilised ohud.
 
 8. Voolutugevuse ja pinge mõõtmine.
+
+## Eksperimendid
+
+### Lume tihedus ja radiaatori võimsus
+
+### Heli sageduse mõõtmine, millega saab klaasi helisema panna
+
+### Pulga pistmine vette õigesse kohta, et esemele pihta saada
+
+### Õige pikkusega matemaatilise pendli tegemine ajamõõtmiseks ja sellega mõõtmine
+
+### Kas jõuab üle tee ohutult, enne kui auto jõuab kohale?
+
+### Lahuse lahjendamine

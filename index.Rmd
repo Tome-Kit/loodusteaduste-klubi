@@ -671,6 +671,22 @@ Pärast sissejuhatavat loogikamängu tegeleme lõimitud teemakäsitlusega kaasat
 
 ### Lume tihedus ja radiaatori võimsus
 
+Osalejad jagunevad paaridesse või kolmikutesse, aga võivad ka üksikuks jääda. Edaspidi nimetan osalejate rühma osalejaks.
+
+Osalejad saavad juhendajalt kaks tühja veekindlat topsi, mis kaalutakse ja mille ruumala jaoks teostatakse mõõtmised, mis kõik kirjendatakse. Topsid täidetakse lumega nii, et lumi oleks topsis triiki. Juhendajal on kauss, mille täidab lumega ja mille sisse pistab termoanduri temperatuuri mõõtmiseks. Iga osaleja asetab ühe lumega täidetud topsi radiaatorile ja teise toatemperatuuril olevale lauale ja märgistatakse kellaaeg.
+
+Osalejad saavad juhendajalt veel kaks tühja veekindlat topsi, millele märgistatakse poole kõrguse peale rant. Topsid täidetakse kraaniveega. Iga osaleja asetab ühe topsi kuumale radiaatorile ja teise toatemperatuuril lauale ning kirjendatakse kellaaeg.
+
+Osalejad arvutavad topside täisruumala, samuti ruumala poole kõrguseni ning kirjendavad. Arvutavad ka lume ja vee tiheduse, mille eelnevalt hindavad. Ühtlasi tuleb olla tähelepanelik ja koheselt märgistada nii kellaaeg kui mõõta ja kirjendada vee temperatuur, kui lumi on sulanud topsis, või veetopsist vesi aurunud.
+
+Topside puhul, milles oli lumi, mõõdetakse veetaseme kõrgus ja arvutatakse ruumala. Samuti kaalutakse topsid koos sulaveega. Arvutatakse ka sulamiseks kulunud aeg. Arvutatakse lume ja vee tihedus.
+
+Arvutatakse energia, mis kulus lume sulatamiseks või vee aurustamiseks.
+
+Arvutatakse radiaatori ja toa võimsus.
+
+Võrreldakse tulemusi hüpoteesidega.
+
 ### Heli sageduse mõõtmine, millega saab klaasi helisema panna
 
 ### Pulga pistmine vette õigesse kohta, et esemele pihta saada

@@ -687,6 +687,8 @@ Arvutatakse radiaatori ja toa võimsus.
 
 Võrreldakse tulemusi hüpoteesidega.
 
+Kui lund pole, siis teeme ainult veega ja saame alustada [elektroskoobi](https://www.sciencebuddies.org/stem-activities/electroscope?from=Blog) valmistamist.
+
 ### Heli sageduse mõõtmine, millega saab klaasi helisema panna
 
 ### Pulga pistmine vette õigesse kohta, et esemele pihta saada

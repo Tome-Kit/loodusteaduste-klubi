@@ -1,0 +1,41 @@
+# Vahendid
+
+1. Globisens.
+
+2. Vernier.
+
+3. Pasco.
+
+4. Sigma Aldrich.
+
+5. Totaledu.
+
+6. *Fluke 115 Compact True-Rms Digital Multimeter*[@fluke].
+
+7. *Fluke 117 Multimeter for Electrician, Electrician Multimeter and Clamp Meter Combo Kit, 1 & Peak Tech P 8200 - Measuring Accessories Set for Digital Multimeter - 14 Pieces Including Bag*[@fluke-117].
+
+8. *Kedelak GFCI Socket Tester with Voltage Display 90-250V Socket Tester Automatic Circuit Polarity Voltage Detector Breaker Finder HT107D*[@kedelak].
+
+9. *BMK Energy Cost Meter, Power Meter with Overload Protection, 3680 W, Plug with large LCD screen, blue*[@bmk].
+
+10. *DLYFULL LCD Universal Battery Tester for AA, AAA, C, D, 9V Digital Tester Battery Tester for CR123A, CR2, CRV3, 2CR5, CRP2 Battery Tester for 1.5V and 3V Button Cells (Red)*[@dlyfull].
+
+11. *goobay Fixpoint 45246 Desoldering Braid 2 mm for Removal of Solder Wire on Soldering Points 1.5 m Pack of 1*[@goobay].
+
+12. *BOJACK 50 g Soldering Paste No-Clean Lead-Free Flux Environmentally Friendly Soldering Tin Paste for Welding (Pack of 1)*[@bojack].
+
+13. *MC POWER - Silicone soldering mat, LM-18, large flexible soldering mat, 55 x 35 cm, welding repair pad, heat-resistant up to 500 °C, anti-static, wipeable and rollable*[@mc].
+
+14. *Preciva Soldering Station 200 ~ 480°C Soldering Iron Set with Soldering Vapour Extraction Including 2 Attachable Helping Hands 5 Additional Soldering Tips Standby Mode Soldering Set for Hobby Soldering*[@preciva].
+
+15. *Flexible Helping Hands, Third Hand Soldering Aid, Soldering Station Tool, 6 x Flexible Helping Hands – One More Backup, Non-Slip Aluminium Base, Built-in Bowls, Heat-Resistant Cover*[@flexible].
+
+16. *Wowgo Soldering Iron Set, 24 Pieces, 60 W Welding Tools, Electric Soldering Set with 5 Interchangeable Tips, Adjustable Temperature, Digital Multimeter, Soldering Iron Stand, Desoldering Pump, Portable Tool Bag*[@wowgo].
+
+7. Drinking bird.
+
+10. Arduino.
+
+19. Termomeeter.
+
+20. Psühromeeter.

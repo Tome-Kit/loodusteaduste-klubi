@@ -20,6 +20,7 @@ mainfont: DejaVu Serif # for displaying both Chinese symbols and emojis
 CJKmainfont: Droid Sans Fallback
 
 bibliography: [references.bib]
+csl: apa-numeric-superscript-brackets.csl
 link-citations: yes
 
 lof: yes
@@ -698,3 +699,11 @@ Kui lund pole, siis teeme ainult veega ja saame alustada [elektroskoobi](https:/
 ### Kas jõuab üle tee ohutult, enne kui auto jõuab kohale?
 
 ### Lahuse lahjendamine
+
+### camera obscura
+
+### Lüümikutele filtrid ja värvide kokkusegamine
+
+### Grafoprojektori ehitamine
+
+### Kui filmida molekule, siis kui kaua kuluks aega, et kõik olekud ära filmida?

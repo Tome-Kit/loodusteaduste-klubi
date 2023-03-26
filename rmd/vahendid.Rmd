@@ -1,6 +1,24 @@
 # Vahendid
 
-1. Globisens.
+1. *Globisens Labdisc: Keskkond*[@globisens].
+
+2. *Globisens Labdisc: Teadus*[@globisens_science].
+
+3. *Globisens CO2 andur*[@globisens_CO2].
+
+4. *Globisens lahustunud hapniku elektrood*[@globisens_O2].
+
+5. *Globisens Labdisc: Keemiline bioloogia*[@globisens_chemical_biology].
+
+6. *Globisens Labdisc: Füüsika*[@globisens_physics].
+
+7. *Globisens juhtmevaba jõu- ja kiirendusandur Dymo*[@globisens_force_acceleration].
+
+8. *Globisens hingamisandur*[@globisens_breathing].
+
+9. *Globisens magnetvälja andur*[@globisens_magnetic_field].
+
+10. *Globisens fotovärav*[@globisens_photo_gate].
 
 2. Vernier.
 
@@ -32,10 +50,14 @@
 
 16. *Wowgo Soldering Iron Set, 24 Pieces, 60 W Welding Tools, Electric Soldering Set with 5 Interchangeable Tips, Adjustable Temperature, Digital Multimeter, Soldering Iron Stand, Desoldering Pump, Portable Tool Bag*[@wowgo].
 
-7. Drinking bird.
+17. *Original drinking bird*[@original].
+
+18. *Set of 4 hand boilers*[@set].
 
 10. Arduino.
 
 19. Termomeeter.
 
 20. Psühromeeter.
+
+21. Keemia: pipetid, spaatlid, täppiskaal, keeduklaasid, katseklaasid, filtrid, lehtrid, hoiupurgid.

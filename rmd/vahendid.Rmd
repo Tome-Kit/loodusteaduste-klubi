@@ -28,6 +28,14 @@
 
 14. *Võrdse massiga kehad, 6 tk*[@totaledu_equal_mass].
 
+15. *Laborikittel, erinevad suurused*[@totaledu_clothing].
+
+16. *Skalpell, ühes tükis*[@totaledu_scalpel].
+
+17. *Statiiv laborisse 50cm, lisadega*[@totaledu_stand].
+
+18. *Vaakumkuppel pumbaga*[@totaledu_vacuum_pump].
+
 2. Vernier.
 
 3. Pasco.

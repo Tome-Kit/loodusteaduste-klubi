@@ -1,5 +1,103 @@
 # Vahendid
 
+Tabelis \@ref(tab:optics) leheküljel `r render_pageref(reference = "tab:optics")` on loodusteaduste klubi ja õppesessioonide jaoks osta tulevate vahendite nimekiri.
+
+(ref:koolile) Praktikal[@koolile]
+(ref:globisens) insplay[@globisens]
+(ref:globisens-science) insplay[@globisens_science]
+(ref:globisens-CO2) insplay[@globisens_CO2]
+(ref:globisens-O2) insplay[@globisens_O2]
+(ref:globisens-chemical-biology) insplay[@globisens_chemical_biology]
+(ref:globisens-physics) insplay[@globisens_physics]
+(ref:globisens-force-acceleration) insplay[@globisens_force_acceleration]
+(ref:globisens-breathing) insplay[@globisens_breathing]
+(ref:globisens-magnetic-field) insplay[@globisens_magnetic_field]
+(ref:globisens-photo-gate) insplay[@globisens_photo_gate]
+(ref:muaket) Amazon.de[@muaket]
+
+```{r label = "optics", echo=FALSE}
+name <- c(
+  "Valgusõpetuse üksikkomplekt",
+  "Soojus- ja elektriõpetuse üksikkomplekt",
+  "Mehaanika üksikkomplekt",
+  "Globisens Labdisc: Keskkond",
+  "Globisens Labdisc: Teadus",
+  "Globisens CO2 andur",
+  "Globisens lahustunud hapniku elektrood",
+  "Globisens Labdisc: Keemiline bioloogia",
+  "Globisens Labdisc: Füüsika",
+  "Globisens juhtmevaba jõu- ja kiirendusandur Dymo",
+  "Globisens hingamisandur",
+  "Globisens magnetvälja andur",
+  "Globisens fotovärav",
+  "Muaket Fine Scale, 50 g / 0.001 g Fine Scale, Electronic Digital Scales with LCD Display, Professional Milligram Scale, Pocket Scale, Laboratory Scale, Gold Scale, Letter Scale, MG Scales"
+)                  # 1
+
+price <- c(
+  119,
+  299,
+  159,
+  478.9,
+  478.9,
+  268.9,
+  218.9,
+  707.9,
+  646.9,
+  308.9,
+  149.9,
+  61.9,
+  42.9,
+  19.99 + 9.56
+)  # 2
+
+source <- c(
+  "(ref:koolile)",
+  "(ref:koolile)",
+  "(ref:koolile)",
+  "(ref:globisens)",
+  "(ref:globisens-science)",
+  "(ref:globisens-CO2)",
+  "(ref:globisens-O2)",
+  "(ref:globisens-chemical-biology)",
+  "(ref:globisens-physics)",
+  "(ref:globisens-force-acceleration)",
+  "(ref:globisens-breathing)",
+  "(ref:globisens-magnetic-field)",
+  "(ref:globisens-photo-gate)",
+  "(ref:muaket)"
+)
+                                                                                                  # 3
+data_frame_of_tools <- data.frame(                                                           # 4
+  name,                                                                                          # 5
+  price,
+  source # 6
+)                                                                                                 # 7
+                                                                                                  # 8
+colnames(data_frame_of_tools) <- c(                                                          # 9
+  "Nimi",                                                         # 10
+  "$\\frac{\\text{Hind}}{€}$",
+  "Allikas" # 11
+)                                                     
+# 12
+librarian::shelf(c(
+  "janitor"
+))
+data_frame_of_tools_with_total <- adorn_totals(dat = data_frame_of_tools, where = "row", fill = "", na.rm = TRUE, name = "Kokku", c(`$\\frac{\\text{Hind}}{€}$`))
+
+librarian::shelf(c(
+  "kableExtra"
+))
+
+print_table(                                                                                     # 14
+  table = data_frame_of_tools_with_total,                                                              # 15
+  caption = "Augustis 2023 \\textit{Edu Valemisse} soetatavad loodusteaduste õpetamise vahendid."                       # 16
+)  %>%                                          # 4
+  row_spec(nrow(data_frame_of_tools), hline_after = TRUE) %>%
+  column_spec(1, width = "32em") %>%
+  landscape()
+
+```
+
 1. *Globisens Labdisc: Keskkond*[@globisens].
 
 2. *Globisens Labdisc: Teadus*[@globisens_science].
@@ -79,3 +177,5 @@
 21. Keemia: pipetid, spaatlid, täppiskaal, keeduklaasid, katseklaasid, filtrid, lehtrid, hoiupurgid, kummikindad eri suuruses, kaitseprillid.
 
 22. 3D-printer.
+
+23. Mehhaaniline elekter.

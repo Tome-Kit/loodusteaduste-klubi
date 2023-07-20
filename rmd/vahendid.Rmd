@@ -14,6 +14,10 @@ Tabelis \@ref(tab:optics) leheküljel `r render_pageref(reference = "tab:optics"
 (ref:globisens-magnetic-field) insplay[@globisens_magnetic_field]
 (ref:globisens-photo-gate) insplay[@globisens_photo_gate]
 (ref:muaket) Amazon.de[@muaket]
+(ref:original) Drinkingbirdstore[@original]
+(ref:set) Drinkingbirdstore[@set]
+(ref:mahlapressidee-316) MAHLAPRESSID.ee[@mahlapressidee_316]
+(ref:rods) forschool[@rods]
 
 ```{r label = "optics", echo=FALSE}
 name <- c(
@@ -30,7 +34,11 @@ name <- c(
   "Globisens hingamisandur",
   "Globisens magnetvälja andur",
   "Globisens fotovärav",
-  "Muaket Fine Scale, 50 g / 0.001 g Fine Scale, Electronic Digital Scales with LCD Display, Professional Milligram Scale, Pocket Scale, Laboratory Scale, Gold Scale, Letter Scale, MG Scales"
+  "Muaket Fine Scale, 50 g / 0.001 g Fine Scale, Electronic Digital Scales with LCD Display, Professional Milligram Scale, Pocket Scale, Laboratory Scale, Gold Scale, Letter Scale, MG Scales",
+  "Original drinking bird",
+  "Set of 4 hand boilers",
+  "316 roostevaba terasest esmaklassiline veedestillaator Rainboy Sealion klaasist karahviniga",
+  "RODS PLUS with Magnet Board (Ray Optics Demonstration Set PLUS)"
 )                  # 1
 
 price <- c(
@@ -47,7 +55,11 @@ price <- c(
   149.9,
   61.9,
   42.9,
-  19.99 + 9.56
+  19.99 + 9.56,
+  10,
+  22,
+  299,
+  340.62
 )  # 2
 
 source <- c(
@@ -64,7 +76,11 @@ source <- c(
   "(ref:globisens-breathing)",
   "(ref:globisens-magnetic-field)",
   "(ref:globisens-photo-gate)",
-  "(ref:muaket)"
+  "(ref:muaket)",
+  "(ref:original)",
+  "(ref:set)",
+  "(ref:mahlapressidee-316)",
+  "(ref:rods)"
 )
                                                                                                   # 3
 data_frame_of_tools <- data.frame(                                                           # 4

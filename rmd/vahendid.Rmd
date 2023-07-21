@@ -18,6 +18,8 @@ Tabelis \@ref(tab:optics) leheküljel `r render_pageref(reference = "tab:optics"
 (ref:set) Drinkingbirdstore[@set]
 (ref:mahlapressidee-316) MAHLAPRESSID.ee[@mahlapressidee_316]
 (ref:rods) forschool[@rods]
+(ref:spintronics) UPPERSTORY[@spintronics]
+(ref:noauthor-undated-jz) ebay[@noauthor_undated-jz]
 
 ```{r label = "optics", echo=FALSE}
 name <- c(
@@ -38,7 +40,9 @@ name <- c(
   "Original drinking bird",
   "Set of 4 hand boilers",
   "316 roostevaba terasest esmaklassiline veedestillaator Rainboy Sealion klaasist karahviniga",
-  "RODS PLUS with Magnet Board (Ray Optics Demonstration Set PLUS)"
+  "RODS PLUS with Magnet Board (Ray Optics Demonstration Set PLUS)",
+  "Spintronics Act One, Act Two, \\& Power Pack",
+  "Japsin Sling Psychrometer Whirling Hygrometer Thermometer Plastic Body in °C/°F"
 )                  # 1
 
 price <- c(
@@ -59,7 +63,9 @@ price <- c(
   10,
   22,
   299,
-  340.62
+  340.62,
+  178.3,
+  42.89
 )  # 2
 
 source <- c(
@@ -80,7 +86,9 @@ source <- c(
   "(ref:original)",
   "(ref:set)",
   "(ref:mahlapressidee-316)",
-  "(ref:rods)"
+  "(ref:rods)",
+  "(ref:spintronics)",
+  "(ref:noauthor-undated-jz)"
 )
                                                                                                   # 3
 data_frame_of_tools <- data.frame(                                                           # 4

@@ -20,13 +20,24 @@ Tabelis \@ref(tab:optics) leheküljel `r render_pageref(reference = "tab:optics"
 (ref:rods) forschool[@rods]
 (ref:spintronics) UPPERSTORY[@spintronics]
 (ref:noauthor-undated-jz) ebay[@noauthor_undated-jz]
+(ref:laboratory) Amazon.de[@laboratory]
+(ref:kg-salzsure) KREMER PIGMENTE[@kg_salzsure]
+(ref:naatriumhdroksiid) Nord Reahim[@naatriumhdroksiid]
+(ref:noauthor-undated-ec) Buddeberg[@noauthor_undated-ec]
+(ref:totaledu-stand) Totaledu[@totaledu_stand]
+(ref:aluminiumbrettenklemme) Amazon.de[@aluminiumbrettenklemme]
+(ref:Reboot-undated-ke) Totaledu[@Reboot_undated-ke]
+(ref:totaledu-phenolphtalein) Totaledu[@totaledu_phenolphtalein]
+(ref:totaledu-litmus) Totaledu[@totaledu_litmus]
+(ref:totaledu-universal-indicator) Totaledu[@totaledu_universal_indicator]
+(ref:vvelhape) Nord Reahim[@vvelhape]
 
 ```{r label = "optics", echo=FALSE}
 name <- c(
   "Valgusõpetuse üksikkomplekt",
   "Soojus- ja elektriõpetuse üksikkomplekt",
   "Mehaanika üksikkomplekt",
-  "Globisens Labdisc: Keskkond",
+  "\\textbf{Globisens Labdisc: Keskkond}",
   "Globisens Labdisc: Teadus",
   "Globisens CO2 andur",
   "Globisens lahustunud hapniku elektrood",
@@ -42,7 +53,18 @@ name <- c(
   "316 roostevaba terasest esmaklassiline veedestillaator Rainboy Sealion klaasist karahviniga",
   "RODS PLUS with Magnet Board (Ray Optics Demonstration Set PLUS)",
   "Spintronics Act One, Act Two, \\& Power Pack",
-  "Japsin Sling Psychrometer Whirling Hygrometer Thermometer Plastic Body in °C/°F"
+  "Japsin Sling Psychrometer Whirling Hygrometer Thermometer Plastic Body in °C/°F",
+  "\\textbf{Laboratory Magnetic Stirrer Heating Plate 135 mm 100-1500 rpm 280°C 5L LED Display Magnetic Stirrer Mixer Magnetic Mixer with PT1000 Sensor with Holder EU Plug 5000 ml}",
+  "\\textbf{Salzsäure 37 \\%}",
+  "\\textbf{Naatriumhüdroksiid}",
+  "\\textbf{Büretten mit geradem Hahn, Borosilikatglas 3.3, Klasse AS}",
+  "\\textbf{Statiiv laborisse 50cm, lisadega}",
+  "\\textbf{Aluminium-Bürettenklemme, Zubehör-Clip, Dual-Büretten-Zubehör, Büretten-Clip, Titrationsständer, Zubehör-Halter, Aluminium-Clip, Titrations-Clip, Aluminium-Gummi-Bürettenklemmen}",
+  "\\textbf{Metüüloranži lahused 12x25ml}",
+  "\\textbf{Fenoolftaleiin lahus 0,09\\% 12x25ml hoidekarbis}",
+  "\\textbf{Lakmus indikaatorlahused 12x25ml}",
+  "\\textbf{Universaalindikaatori lahused pH 1-12 hoidekarbis (12x25ml)}",
+  "\\textbf{Väävelhape}"
 )                  # 1
 
 price <- c(
@@ -65,7 +87,18 @@ price <- c(
   299,
   340.62,
   178.3,
-  42.89
+  42.89,
+  329.99 + 18.94,
+  13.51 + 19,
+  4.2 * 1.2,
+  104.48,
+  51,
+  9.99 + 7.5,
+  57.6,
+  56.4,
+  61.2,
+  70.8,
+  10 * 1.2
 )  # 2
 
 source <- c(
@@ -88,7 +121,18 @@ source <- c(
   "(ref:mahlapressidee-316)",
   "(ref:rods)",
   "(ref:spintronics)",
-  "(ref:noauthor-undated-jz)"
+  "(ref:noauthor-undated-jz)",
+  "(ref:laboratory)",
+  "(ref:kg-salzsure)",
+  "(ref:kg-natriumhydroxid)",
+  "(ref:noauthor-undated-ec)",
+  "(ref:totaledu-stand)",
+  "(ref:aluminiumbrettenklemme)",
+  "(ref:Reboot-undated-ke)",
+  "(ref:totaledu-phenolphtalein)",
+  "(ref:totaledu-litmus)",
+  "(ref:totaledu-universal-indicator)",
+  "(ref:vvelhape)"
 )
                                                                                                   # 3
 data_frame_of_tools <- data.frame(                                                           # 4

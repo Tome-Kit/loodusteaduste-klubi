@@ -2,6 +2,8 @@
 
 Tabelis \@ref(tab:optics) leheküljel `r render_pageref(reference = "tab:optics")` on loodusteaduste klubi ja õppesessioonide jaoks osta tulevate vahendite nimekiri.
 
+\onecolumn
+
 (ref:koolile) Praktikal[@koolile]
 (ref:globisens) insplay[@globisens]
 (ref:globisens-science) insplay[@globisens_science]
@@ -166,6 +168,8 @@ print_table(                                                                    
 
 ```
 
+\twocolumn
+
 1. *Globisens Labdisc: Keskkond*[@globisens].
 
 2. *Globisens Labdisc: Teadus*[@globisens_science].
@@ -247,3 +251,8 @@ print_table(                                                                    
 22. 3D-printer.
 
 23. Mehhaaniline elekter.
+
+24. Petri tassid.
+
+25. Rippkaal.
+

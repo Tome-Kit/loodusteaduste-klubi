@@ -1,0 +1,10 @@
+# Loogikamängud
+
+1.  Kujundi ja värvi äraarvamine / tuletamine (joonis \@ref(fig:logic) leheküljel `r render_pageref(reference = "fig:logic")`.
+
+    ```{r label = "logic", echo=FALSE, fig.cap="Muu õpilase kaardi kombinatsiooni arvamine (2023-3-30 15:58:59)."}
+    include_external_graphics("rmd/loogikamäng.jpg")
+
+    ```
+
+2. Teine enda värvi äraarvamine / tuletamine.

@@ -12,7 +12,7 @@ title: |
 documentclass: book
 papersize: a4
 geometry: top=2cm, right=2cm, bottom=3cm, left=3cm
-classoption: onecolumn, twoside
+classoption: twocolumn, twoside
 linestretch: 1.5
 
 fontsize: 12pt
@@ -218,97 +218,55 @@ render_color <- function(color, text) {
 
 # Loodusteaduste klubi ülesehitus
 
-## Eesmärgid
+## Missioon
 
-1. Osalevate õpilaste lüngad loodusteaduste ja matemaatika teadmistes-oskustes on täidetud kestvalt vastavalt kaardistatud vajadustele.
+Teenindaja ülesanne on korraldada „Edu Valem“ Erakooli õpilastele loodusteaduste
+klubi, aidates õpilastel aduda maailma integreeritud praktilise loodusteaduste käsitlemise
+kaudu.
 
-2. Käsitletud teemade osas on osalevatel õpilastel terviklik käsitus.
+## Kirjeldus
 
-## Loogikamäng
+Üldharidussüsteemis ja ka International Baccalaureate's kiputakse 
+käsitlema loodusteadusi eraldi. Et saada terviklikku maailma pilti, 
+mõista enda ümber ja sees toimuvat ja osata tõhusalt toimetada 
+ümbritsevas keskkonnas, tuleb neid teadusi õppida lõimitult. Vahel 
+küsitakse matemaatikaõppes, miks me üht või teist asja õpime. Lõimitud 
+õppe kaudu saab kiiresti selgeks, miks.
 
-Sissejuhatuseks ja soojenduseks iga sessiooni alguses mängime ühe loogikamängu, mis aitab mõtlemise paremini tööle panna. Neid mänge on mitmeid ja neid saab mitut viisi kombineerida. Üks on nt kujundi ja värvi äraarvamine / tuletamine, teine enda värvi äraarvamine / tuletamine.
+Igas sessioonis käsitleme mingit 
+loodusteaduslikku teemat lõimitult. Viime eksperimente läbi võimalikult 
+teaduslikult. Kasutan 
+käepäraseid vahendeid, mida saab iga osaleja ka kodustes tingimustes 
+kasutada. Kuigi võimalik on kasutada korralikke ja suure hinnaga 
+mõõteseadmeid, saab teema uurimiseks ka ise ehitada odavalt käepäraste 
+vahenditega vajaliku seadme ja seda me teeme. Seni oleme kombineerinud 
+füüsikat, matemaatikat, inglise, vene ja eesti keelt, veidi ka 
+arvutiteadust. Nii mõneski koolis eksperimente 
+peaaegu ei tehtagi, mistõttu on selline klubi vajalik täiendus kooliõppele. Põhjus, miks eksperimente õppesessioonides ei sooritata, on piiratud aeg ja temaatika. Klubis meie aeg piiratud ei ole ja teemakäsitluses oleme vabad. 
 
-## Vajaduste kaardistamine
+Meetod on nt selline:
 
-Esimeses sessioonis kaardistame osalejate vajadused füüsika (vormid \@ref(fig:physics-9) ja \@ref(fig:physics-10-11-output)), keemia (vormid \@ref(fig:chemistry-9) ja \@ref(fig:chemistry-10-11-output)), matemaatika (vormid \@ref(fig:math-9) ja \@ref(fig:math-10-11-output)) ja arvutiteaduse (vormid \@ref(fig:cs-9) ja \@ref(fig:cs-10-11-output)) valdkondades. Selleks nad sisestavad Answergardenisse märksõnadena, mille õppimiseks on jäänud koolisessioonidest väheks ja mille integreeritud õppimist saan mina aidata.
+1. Hüpoteesi püstitamine.
 
-```{r label = "physics-7-8-output", echo=FALSE, fig.cap="Seitsmenda ja kaheksanda klassitaseme õpilaste füüsikasoovid."}
-knitr::include_url("https://answergarden.ch/embed/3112524")
+2. Teooria formuleerimine.
 
-```
-
-```{r label = "physics-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste füüsikasoovid."}
-knitr::include_url("https://answergarden.ch/embed/3069314")
-
-```
-
-```{r label = "physics-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste füüsikasoovid."}
-knitr::include_url("https://answergarden.ch/embed/3076065")
-
-```
-
-```{r label = "chemistry-7-8", echo=FALSE, fig.cap="Seitsmenda ja kaheksanda klassitaseme õpilaste keemiasoovid."}
-knitr::include_url("https://answergarden.ch/3112545")
-
-```
-
-```{r label = "chemistry-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste keemiasoovid."}
-knitr::include_url("https://answergarden.ch/3069330")
-
-```
-
-```{r label = "chemistry-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste keemiasoovid."}
-knitr::include_url("https://answergarden.ch/3076089")
-
-```
-
-```{r label = "math-7-8", echo=FALSE, fig.cap="Seitsmenda ja kaheksanda klassitaseme õpilaste matemaatikasoovid."}
-knitr::include_url("https://answergarden.ch/3112615")
-
-```
-
-```{r label = "math-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste matemaatikasoovid."}
-knitr::include_url("https://answergarden.ch/3069333")
-
-```
-
-```{r label = "math-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste matemaatikasoovid."}
-knitr::include_url("https://answergarden.ch/3076095")
-
-```
-
-```{r label = "cs-7-8", echo=FALSE, fig.cap="Seitsmenda ja kaheksanda klassitaseme õpilaste arvutiteaduse soovid."}
-knitr::include_url("https://answergarden.ch/3112621")
-
-```
-
-```{r label = "cs-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste arvutiteaduse soovid."}
-knitr::include_url("https://answergarden.ch/3069339")
-
-```
-
-```{r label = "cs-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste arvutiteaduse soovid."}
-knitr::include_url("https://answergarden.ch/3076099")
-
-```
-
-## Konto loomine
-
-Esimeses sessioonis loovad osalejad endale mu [OpenProjecti](https://openproject.tennis24.ee/projects/loodusteaduste-klubi/) konto, millesse raporteerime kõik tegevused.
-
-## Lõimitud teemakäsitlus
-
-Pärast sissejuhatavat loogikamängu tegeleme lõimitud teemakäsitlusega kaasates teema või teemad vastavalt kaardistatud vajadustele. Esimeses sessioonis käsitleme teemat või teemasid vastavalt kohapealsetele võimalustele, kuna selleks sessiooniks ei saa veel olla miski konkreetne teemakäsitlus ettevalmistatud. Alates teisest sessioonist on struktuur nt selline:
-
-1. Reegli avastamine vaikse õpetamise meetodi kaudu.
-
-2. Võimalusel kehalise eksperimendi sooritamine ja sellega teooria kontrollimine.
+3. Võimalusel kehalise eksperimendi sooritamine ja sellega teooria kontrollimine.
 
 3. Segaste kohtade selgeks õppimine.
 
 4. Gruppides üksteisele teemakohaste ülesannete loomine.
 
 5. Gruppides üksteisele loodud teemakohaste ülesannete vastastikku lahendamine.
+
+## Eesmärgid
+
+1. Osalevate õpilaste lüngad loodusteaduste ja matemaatika teadmistes-oskustes on täidetud kestvalt vastavalt kaardistatud vajadustele.
+
+2. Käsitletud teemade osas on osalevatel õpilastel terviklik käsitus.
+
+## Konto loomine
+
+Esimeses sessioonis loovad osalejad endale mu OpenProjecti konto, millesse raporteerime kõik tegevused[@sign].
 
 ## Füüsikateemad
 
@@ -688,52 +646,106 @@ Pärast sissejuhatavat loogikamängu tegeleme lõimitud teemakäsitlusega kaasat
 
 8. Voolutugevuse ja pinge mõõtmine.
 
-## Eksperimendid
+\onecolumn
 
-### Lume tihedus ja radiaatori võimsus
+## Tabel liitujaile väljatrükkimiseks
 
-Osalejad jagunevad paaridesse või kolmikutesse, aga võivad ka üksikuks jääda. Edaspidi nimetan osalejate rühma osalejaks.
+Tabel \@ref(tab:club-participants) leheküljel `r render_pageref(reference = "tab:club-participants")` on mõeldud väljatrükkimiseks, et liituda soovijad saaksid selle täita.
 
-Osalejad saavad juhendajalt kaks tühja veekindlat topsi, mis kaalutakse ja mille ruumala jaoks teostatakse mõõtmised, mis kõik kirjendatakse. Topsid täidetakse lumega nii, et lumi oleks topsis triiki. Juhendajal on kauss, mille täidab lumega ja mille sisse pistab termoanduri temperatuuri mõõtmiseks. Iga osaleja asetab ühe lumega täidetud topsi radiaatorile ja teise toatemperatuuril olevale lauale ja märgistatakse kellaaeg.
+```{r label = "club-participants", echo=FALSE}
+name <- c(
+  "peacecop kalmer:",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+)
 
-Osalejad saavad juhendajalt veel kaks tühja veekindlat topsi, millele märgistatakse poole kõrguse peale rant. Topsid täidetakse kraaniveega. Iga osaleja asetab ühe topsi kuumale radiaatorile ja teise toatemperatuuril lauale ning kirjendatakse kellaaeg.
+email_address <- c(
+  "kalmer@ons.ee",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+)
 
-Osalejad arvutavad topside täisruumala, samuti ruumala poole kõrguseni ning kirjendavad. Arvutavad ka lume ja vee tiheduse, mille eelnevalt hindavad. Ühtlasi tuleb olla tähelepanelik ja koheselt märgistada nii kellaaeg kui mõõta ja kirjendada vee temperatuur, kui lumi on sulanud topsis, või veetopsist vesi aurunud.
+when <- c(
+  "E 15:15-, T 11:15-, K, N 15:15-, R 15:15-, L",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+)
 
-Topside puhul, milles oli lumi, mõõdetakse veetaseme kõrgus ja arvutatakse ruumala. Samuti kaalutakse topsid koos sulaveega. Arvutatakse ka sulamiseks kulunud aeg. Arvutatakse lume ja vee tihedus.
+level <- c(
+  "bakalaureuseõpe",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+)
 
-Arvutatakse energia, mis kulus lume sulatamiseks või vee aurustamiseks.
+data_frame_of_joining_club <- data.frame(
+  name,
+  email_address,
+  when,
+  level
+)
 
-Arvutatakse radiaatori ja toa võimsus.
+colnames (data_frame_of_joining_club) <- c(
+  "Nimi",
+  "Meiliaadress",
+  "Iganädalased ajavahemikud klubis osalemiseks",
+  "Õppetase, nt \\textit{10}"
+)
 
-Võrreldakse tulemusi hüpoteesidega.
+librarian::shelf(c(
+  "dplyr",
+  "kableExtra"
+))
 
-Kui lund pole, siis teeme ainult veega ja saame alustada [elektroskoobi](https://www.sciencebuddies.org/stem-activities/electroscope?from=Blog) valmistamist.
+print_table(
+  table = data_frame_of_joining_club,
+  caption = "Loodusteaduste klubis oktoobrist 2023 maini 2024 osaleda soovijad."
+) %>%
+  landscape()
 
-### Heli sageduse mõõtmine, millega saab klaasi helisema panna
+```
 
-### Pulga pistmine vette õigesse kohta, et esemele pihta saada
-
-### Õige pikkusega matemaatilise pendli tegemine ajamõõtmiseks ja sellega mõõtmine
-
-### Kas jõuab üle tee ohutult, enne kui auto jõuab kohale?
-
-### Lahuse lahjendamine
-
-### camera obscura
-
-### Lüümikutele filtrid ja värvide kokkusegamine
-
-### Grafoprojektori ehitamine
-
-### Kui filmida molekule, siis kui kaua kuluks aega, et kõik olekud ära filmida?
-
-### Sinised, punased jooned paralleelselt, vaadata läbi sinise ja punase filtri
-
-### Sukraloos
-
-### Liikuvad pildid, triibud, samuti üks pilt pealt, teine ühel küljel, kolmas vastasküljel kühmudena.
-
-### camera obscura
-
-### Figuring the near point
+\twocolumn

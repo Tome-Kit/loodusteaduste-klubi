@@ -3,8 +3,11 @@ new_session: false
 delete_merged_file: true
 rmd_files: [
   "index.Rmd",
+  "rmd/eksperimendid.Rmd",
   "rmd/vahendid.Rmd",
   "rmd/snow-and-water-dominik-martin.Rmd",
+  "rmd/loogika.Rmd",
+  "rmd/vajadused.Rmd",
   "references.Rmd"
 ]
 language:

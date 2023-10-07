@@ -1,0 +1,166 @@
+\onecolumn
+
+# Eksperimendid
+
+## Lume tihedus ja radiaatori võimsus
+
+Osalejad jagunevad paaridesse või kolmikutesse, aga võivad ka üksikuks jääda. Edaspidi nimetan osalejate rühma osalejaks.
+
+Osalejad saavad juhendajalt kaks tühja veekindlat topsi, mis kaalutakse ja mille ruumala jaoks teostatakse mõõtmised, mis kõik kirjendatakse (joonis \@ref(fig:calculating-V-of-cup) leheküljel `r render_pageref(reference = "fig:calculating-V-of-cup")`). Topsid täidetakse lumega nii, et lumi oleks topsis triiki. Juhendajal on kauss, mille täidab lumega ja mille sisse pistab termoanduri temperatuuri mõõtmiseks. Iga osaleja asetab ühe lumega täidetud topsi radiaatorile ja teise toatemperatuuril olevale lauale ja märgistatakse kellaaeg.
+
+```{r label = "calculating-V-of-cup", echo=FALSE, fig.cap="Äralõigatud tipuga koonuse kujulise topsi ruumala arvutamine (2023-3-14 17:32:6)."}
+include_external_graphics("rmd/lumi/topsi-ruumala-arvutamine.jpg")
+
+```
+
+Osalejad saavad juhendajalt veel kaks tühja veekindlat topsi, millele märgistatakse poole kõrguse peale rant. Topsid täidetakse kraaniveega. Iga osaleja asetab ühe topsi kuumale radiaatorile ja teise toatemperatuuril lauale ning kirjendatakse kellaaeg.
+
+Osalejad arvutavad topside täisruumala (joonis \@ref(fig:formulas-for-C-V) leheküljel `r render_pageref(reference = "fig:formulas-for-C-V")`), samuti ruumala poole kõrguseni ning kirjendavad (joonis \@ref(fig:reporting-snow) leheküljel `r render_pageref(reference = "fig:reporting-snow")`). Arvutavad ka lume ja vee tiheduse, mille eelnevalt hindavad. Ühtlasi tuleb olla tähelepanelik ja koheselt märgistada nii kellaaeg kui mõõta ja kirjendada vee temperatuur, kui lumi on sulanud topsis, või veetopsist vesi aurunud.
+
+```{r label = "formulas-for-C-V", echo=FALSE, fig.cap="Valemid topsi põhja ümbermõõdu ja koonuse ruumala arvutamiseks ning ühe pundi osalejate topsi täisruumala arvutuskäik (2023-3-21 17:30:18)."}
+include_external_graphics("rmd/lumi/topsi-põhja-ümbermõõt-ruumala.jpg")
+
+```
+
+```{r label = "reporting-snow", echo=FALSE, fig.cap="Kahe rühma õpilaste lumeraport (2023-3-21 17:30:10)."}
+include_external_graphics("rmd/lumi/lumeraport.jpg")
+
+```
+
+Topside puhul, milles oli lumi, mõõdetakse veetaseme kõrgus ja arvutatakse ruumala. Samuti kaalutakse topsid koos sulaveega. Arvutatakse ka sulamiseks kulunud aeg. Arvutatakse lume ja vee tihedus.
+
+Arvutatakse energia, mis kulus lume sulatamiseks või vee aurustamiseks.
+
+Arvutatakse radiaatori ja toa võimsus.
+
+Võrreldakse tulemusi hüpoteesidega.
+
+Kui lund pole, siis teeme ainult veega.
+
+\twocolumn
+
+## Elektroskoobi valmistamine
+
+Valmistasime etteloodud juhendi järgi kolm elektroskoopi (joonis \@ref(fig:schematics-of-electroscope) leheküljel `r render_pageref(reference = "fig:schematics-of-electroscope")`)[@measure].
+
+```{r label = "schematics-of-electroscope", echo=FALSE, fig.cap="Elektroskoobi skeem (2023-4-18 17:25:9)."}
+include_external_graphics("rmd/elektroskoobi-skeem.jpg")
+
+```
+
+## Mündipatarei
+
+Mündipatarei valmistamise testimist katsetasin kodus (joonis \@ref(fig:salt-in-acetic-acid) leheküljel `r render_pageref(reference = "fig:salt-in-acetic-acid")`).
+
+```{r label = "salt-in-acetic-acid", echo=FALSE, fig.cap="Soolakristallid äädikhappes (2023-5-15 20:17:56)."}
+include_external_graphics("rmd/IMG_20230515_201756.jpg")
+
+```
+
+martin kirjutas üles elektriliste potentsiaalide erinevuse pärast iga mündi lisamist näidates vahejoonega, millisest pingest alates läks Light-Emitting-Diode põlema (joonis \@ref(fig:martin-s-report-on-coin-battery) leheküljel `r render_pageref(reference = "fig:martin-s-report-on-coin-battery")`).
+
+```{r label = "martin-s-report-on-coin-battery", echo=FALSE, fig.cap="martini mündipatarei valmistamise protokoll (2023-5-16 17:40:13)."}
+include_external_graphics("rmd/martini-mündipatarei-protokoll.jpg")
+
+```
+
+## Peegellabürint
+
+Optikateemas oleme valmistanud 
+peegellabürinte (joonised \@ref(fig:maze-with-mirrors-from-top) leheküljel `r render_pageref(reference = "fig:maze-with-mirrors-from-top")`, \@ref(fig:maze-with-mirrors-with-optical-tubes) leheküljel `r render_pageref(reference = "fig:maze-with-mirrors-with-optical-tubes")`, \@ref(fig:light-path-in-the-maze-with-mirrors) leheküljel `r render_pageref(reference = "fig:light-path-in-the-maze-with-mirrors")`, \@ref(fig:multiple-rays) leheküljel `r render_pageref(reference = "fig:multiple-rays")` ja \@ref(fig:lamp-through-3-mirroring) leheküljel `r render_pageref(reference = "fig:lamp-through-3-mirroring")`), joonestanud, mõõtnud, arvutanud kontrollimaks 
+peegeldusnurki (joonised \@ref(fig:mirroring-components) leheküljel `r render_pageref(reference = "fig:mirroring-components")` ja \@ref(fig:mirroring) leheküljel `r render_pageref(reference = "fig:mirroring")`.
+
+```{r label = "maze-with-mirrors-from-top", echo=FALSE, fig.cap="Peegellabürint pealtvaates (2023-4-13 15:45:11)."}
+include_external_graphics("rmd/peegellabürint/IMG_20230413_154503.jpg")
+
+```
+
+```{r label = "maze-with-mirrors-with-optical-tubes", echo=FALSE, fig.cap="Peegellabürint vaataja suhtes vasemalt paistva valgustorude komplektiga (2023-4-13 15:44:51)."}
+include_external_graphics("rmd/peegellabürint/peegellabürint-katusega.jpg")
+
+```
+
+```{r label = "light-path-in-the-maze-with-mirrors", echo=FALSE, fig.cap="Valguse teekond peegellabürindis (2023-4-13 15:44:41)."}
+include_external_graphics("rmd/peegellabürint/valguse-teekond-peegellabürindis.jpg")
+
+```
+
+```{r label = "lamp-through-3-mirroring", echo=FALSE, fig.cap="Lamp läbi kolme peegeldumise (2023-4-13 15:47:23)."}
+include_external_graphics("rmd/peegellabürint/lamp-läbi-3-peegeldumise.jpg")
+
+```
+
+```{r label = "mirroring-components", echo=FALSE, fig.cap="Peegeldumise komponendid (2023-4-6 16:53:14)."}
+include_external_graphics("rmd/peegellabürint/peegeldumise-komponendid.jpg")
+
+```
+
+```{r label = "mirroring", echo=FALSE, fig.cap="Valgusvoo teekond peeglite kaudu (2023-4-6 16:42:48)."}
+include_external_graphics("rmd/peegellabürint/peegeldamine.jpg")
+
+```
+
+```{r label = "multiple-rays", echo=FALSE, fig.cap="Mitme kiire pegeeldamine (2023-4-20 16:34:59)."}
+include_external_graphics("rmd/peegellabürint/mitu-kiirt.jpg")
+
+```
+
+## Läätse poolt tekitatud kujutis
+
+Oleme välja jõudnud läätse poolt tekitatud kujutise 
+kauguse (joonised \@ref(fig:measuring-distance-between-lens-object-image) leheküljel `r render_pageref(reference = "fig:measuring-distance-between-lens-object-image")` ja \@ref(fig:formula-of-snellius) leheküljel `r render_pageref(reference = "fig:formula-of-snellius")`) ja kõrguse arvutamiseni (joonised \@ref(fig:D-M) leheküljel `r render_pageref(reference = "fig:D-M")` ja \@ref(fig:M-f) leheküljel `r render_pageref(reference = "fig:M-f")`) ning selle eksperimentaalse 
+kontrollimiseni.
+
+```{r label = "measuring-distance-between-lens-object-image", echo=FALSE, fig.cap="Sihitise ja kujutise kauguse mõõtmine (2023-5-4 16:10:13)."}
+include_external_graphics("rmd/lääts/kujutise-ja-objekti-kauguse-mõõtmine.jpg")
+
+```
+
+```{r label = "formula-of-snellius", echo=FALSE, fig.cap="Läätse poolt tekitatud kujutise kauguse ja kõrguse arvutamine (2023-4-13 16:58:01)."}
+include_external_graphics("rmd/lääts/snelliuse-valem.jpg")
+
+```
+
+```{r label = "D-M", echo=FALSE, fig.cap="Läätse tugevuse ja läätse poolt tekitatud kujutise kõrguse arvutamine (2023-4-13 16:58:07)."}
+include_external_graphics("rmd/lääts/d-m.jpg")
+
+```
+
+```{r label = "M-f", echo=FALSE, fig.cap="Läätse tugevuse ja fookuskauguse arvutamine (2023-5-14 16:02:28)."}
+include_external_graphics("rmd/lääts/fookuskauguse-arvutamine.jpg")
+
+```
+
+## Värvide segamine
+
+Plaan on ehitada värvide segamise aparatuur.
+
+## Projektor 
+
+## Värvifiltrid
+
+## Heli sageduse mõõtmine, millega saab klaasi helisema panna
+
+## Pulga pistmine vette õigesse kohta, et esemele pihta saada
+
+## Õige pikkusega matemaatilise pendli tegemine ajamõõtmiseks ja sellega mõõtmine
+
+## Kas jõuab üle tee ohutult, enne kui auto jõuab kohale?
+
+## Lahuse lahjendamine
+
+## camera obscura
+
+## Lüümikutele filtrid ja värvide kokkusegamine
+
+## Grafoprojektori ehitamine
+
+## Kui filmida molekule, siis kui kaua kuluks aega, et kõik olekud ära filmida?
+
+## Sinised, punased jooned paralleelselt, vaadata läbi sinise ja punase filtri
+
+## Sukraloos
+
+## Liikuvad pildid, triibud, samuti üks pilt pealt, teine ühel küljel, kolmas vastasküljel kühmudena.
+
+## Figuring the near point

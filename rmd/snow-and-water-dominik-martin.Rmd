@@ -1,1 +1,8 @@
 # snow and water
+
+Joonisel \@ref(fig:calculating-V-of-cup-martin) leheküljel `r render_pageref(reference = "fig:calculating-V-of-cup-martin")` on näha martini püüdlused arvutada topsi ruumala.
+
+```{r label = "calculating-V-of-cup-martin", echo=FALSE, fig.cap="martini katsetused topsi ruumala arvutamiseks (2023-3-21 17:29:30)."}
+include_external_graphics("rmd/topsi-ruumala-arvutamine-martin.jpg")
+
+```

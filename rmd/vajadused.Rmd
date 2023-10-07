@@ -1,0 +1,63 @@
+# Vajadused
+
+Esimeses sessioonis kaardistasime osalejate vajadused füüsika (vormid \@ref(fig:physics-9) ja \@ref(fig:physics-10-11-output)), keemia (vormid \@ref(fig:chemistry-9) ja \@ref(fig:chemistry-10-11-output)), matemaatika (vormid \@ref(fig:math-9) ja \@ref(fig:math-10-11-output)) ja arvutiteaduse (vormid \@ref(fig:cs-9) ja \@ref(fig:cs-10-11-output)) valdkondades. Selleks sisestasid osalejad Answergardenisse märksõnadena, mille õppimiseks on jäänud koolisessioonidest väheks ja mille integreeritud õppimist saan mina aidata.
+
+```{r label = "physics-7-8-output", echo=FALSE, fig.cap="Seitsmenda ja kaheksanda klassitaseme õpilaste füüsikasoovid."}
+knitr::include_url("https://answergarden.ch/embed/3112524")
+
+```
+
+```{r label = "physics-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste füüsikasoovid."}
+knitr::include_url("https://answergarden.ch/embed/3069314")
+
+```
+
+```{r label = "physics-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste füüsikasoovid."}
+knitr::include_url("https://answergarden.ch/embed/3076065")
+
+```
+
+```{r label = "chemistry-7-8", echo=FALSE, fig.cap="Seitsmenda ja kaheksanda klassitaseme õpilaste keemiasoovid."}
+knitr::include_url("https://answergarden.ch/3112545")
+
+```
+
+```{r label = "chemistry-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste keemiasoovid."}
+knitr::include_url("https://answergarden.ch/3069330")
+
+```
+
+```{r label = "chemistry-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste keemiasoovid."}
+knitr::include_url("https://answergarden.ch/3076089")
+
+```
+
+```{r label = "math-7-8", echo=FALSE, fig.cap="Seitsmenda ja kaheksanda klassitaseme õpilaste matemaatikasoovid."}
+knitr::include_url("https://answergarden.ch/3112615")
+
+```
+
+```{r label = "math-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste matemaatikasoovid."}
+knitr::include_url("https://answergarden.ch/3069333")
+
+```
+
+```{r label = "math-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste matemaatikasoovid."}
+knitr::include_url("https://answergarden.ch/3076095")
+
+```
+
+```{r label = "cs-7-8", echo=FALSE, fig.cap="Seitsmenda ja kaheksanda klassitaseme õpilaste arvutiteaduse soovid."}
+knitr::include_url("https://answergarden.ch/3112621")
+
+```
+
+```{r label = "cs-9", echo=FALSE, fig.cap="Üheksanda klassitaseme õpilaste arvutiteaduse soovid."}
+knitr::include_url("https://answergarden.ch/3069339")
+
+```
+
+```{r label = "cs-10-11-output", echo=FALSE, fig.cap="Kümnenda ja 11. klassitaseme õpilaste arvutiteaduse soovid."}
+knitr::include_url("https://answergarden.ch/3076099")
+
+```

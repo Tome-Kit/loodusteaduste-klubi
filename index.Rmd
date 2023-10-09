@@ -646,7 +646,18 @@ Esimeses sessioonis loovad osalejad endale mu OpenProjecti konto, millesse rapor
 
 8. Voolutugevuse ja pinge mõõtmine.
 
+\newpage
+
 \onecolumn
+
+## Loodusteaduste klubi kuulutus
+
+Peatselt jätkame meie koolis loodusteaduste klubi (loodusteaduste-klubi.ons.ee), millega alustasime märtsis. Seda klubi juhatan mina, peacecop kalmer:, füüsika ja keemia õpetaja meie kooli gümnaasiumiastmes. Mida klubis teeme? Lõimime füüsikat, keemiat, matemaatikat, eesti, inglise ja vene keelt õppides meie maailma tundma tervikkontseptsioonide kaudu. Õppesessioonide aeg on liialt piiratud, et teha rahulikult ja korralikult eksperimente. Klubis on meil piisavalt aega ja teemakäsitlus on vaba. Enamikku eksperimente viime läbi kasutades käepäraseid vahendeid, nii et neid saaks ka korrata kodustes tingimustes. Klubi tegevused aitavad kaasa õppesessioonides käsitletava temaatika mõistmisele. Märtsist maini õppisime arvutama plastiktopsi ruumala, jälgisime lume sulamist ja vee aurustumist, ehitasime peegellabürinte, arvutasime läätse fookuskaugust ja tugevust, uurisime valguse levimist optilises juhtmes, testisime obskuurset kaamerat, valmistasime värvifiltrite aparaadi, kolm elektroskoopi ja mündipatarei. Saame korrata neid eksperimente ja teha palju uusi sõltuvalt osalejate soovidest. Ühe klubisessiooni kestus on 1,5 h. Iga õpilasest osaleja on eeldatud osalema vähemalt ühes sessioonis nädalas. Kui sa tunned, et sa tahad selles klubis osaleda, palun täida osalemise soovi vorm, millele saad ligi oma nutitelefoniga kasutades ruutkoodi joonisel \@ref(fig:qr-code-for-joining) leheküljel `r render_pageref(reference = "fig:calculating-V-of-cup")`, et teaksin, kes millisel tasemel milliste ajaliste võimalustega osaleda soovib ja saaksin toimumisajad planeerida.
+
+```{r label = "qr-code-for-joining", echo=FALSE, fig.cap="Ruutkood klubiga liitumise vormile.", out.width=".2\\textwidth"}
+include_external_graphics("rmd/frame.png")
+
+```
 
 ## Tabel liitujaile väljatrükkimiseks
 
